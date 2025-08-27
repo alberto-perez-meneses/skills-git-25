@@ -55,7 +55,7 @@ body {
 
 .hero-image img:hover {
     /* azul y verde corregir el scale, debe ser 1.2*/
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: transform 0.3s;
 
 }
@@ -135,6 +135,9 @@ body {
     /* rojo agregar .footer grid-template-columns: 2fr; */
 
     /* azul agregar .logo img con 60px*/
+    .logo img {
+      width: 60px;
+    }
 
     /*verde agregar .features con 2fr; grid-template-columns: 2fr; */
 
@@ -146,6 +149,9 @@ body {
     /* rojo agregar .footer grid-template-columns: 1fr; */
 
     /* azul agregar .logo img con 60px*/
+    .logo img {
+      width: 30px;
+    }
 
     /*verde agregar .features con 1fr; grid-template-columns: 1fr; */
 
